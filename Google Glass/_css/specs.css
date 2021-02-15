@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*Formatações da seção de conteúdo do arquivo specs.html*/
+section#conteudo {
+	width: 1000px;
+	margin: auto;
+}
+
+/*Formatações do iframe ao lado da imagem inserida na seção de conteúdo*/
+iframe#frameSpec {
+	width: 400px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}

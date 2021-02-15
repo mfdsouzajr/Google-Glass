@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+        <meta name="author" content="Marcos Júnior"/>
+		<meta name="keywords" content="Google,Glass,fotos,galeria,de,imagens,revolução,chegando,está"/>
+		<meta http-equiv="content-type" content="text/html"/>
+		<title>Google Glass | Fotos</title>
+		<link rel="stylesheet" type="text/css" href="_css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="_css/fotos.css"/>
+		<script src="_js/funcoes.js" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div id="interface">
+			<header id="cabecalho"> 
+				<hgroup> 
+					<h1>Google Glass</h1>
+					<h2>A revolução do Google está chegando</h2>
+				</hgroup>
+				<img id="icone" src="_imagens/fotos.png"/>
+				<nav id="menu">
+					<h1>Menu Principal</h1>
+					<ul>
+						<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="index.html">Home</a></li>
+						<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="specs.html">Especificações</a></li>
+						<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+						<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+						<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="faleConosco.html">Fale conosco</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section id="corpoFull">
+				<article id="noticiaPrincipal">
+					<header id="cabecalhoArtigo">
+						<hgroup>
+							<h3>Glass > Fotos</h3>
+							<h1>Galeria de Imagens do Google Glass</h1>
+							<h2>por Marcos Júnior</h2>
+							<h3 class="direita">Atualizado em 23/Abril/2013</h3>
+						</hgroup>
+					</header>
+					<p>Veja várias belas imagens na nossa galeria de fotos que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição. Ao clicar numa das imagens, uma nova guia abrirá automaticamente para a melhor visualização da foto.</p>
+					<ul id="albumFotos">
+						<li id="foto01" onclick="abrirFoto('_abrirFoto/galeria-01.html')"><span>Agenda e lembretes</span></li>
+						<li id="foto02" onclick="abrirFoto('_abrirFoto/galeria-02.html')"><span>Sergey Brin usando o Glass</span></li>
+						<li id="foto03" onclick="abrirFoto('_abrirFoto/galeria-03.html')"><span>Leve e compacto</span></li>
+						<li id="foto04" onclick="abrirFoto('_abrirFoto/galeria-04.html')"><span>Sensação de uma tela de 50"</span></li>
+						<li id="foto05" onclick="abrirFoto('_abrirFoto/galeria-05.html')"><span>Vários tipos de lente</span></li>
+						<li id="foto06" onclick="abrirFoto('_abrirFoto/galeria-06.html')"><span>Informações importantes</span></li>
+					</ul>
+				</article>
+			</section>
+			<footer id="rodape">
+				<p>Copyright &copy; 2013 - by Marcos Júnior</p>
+			</footer>
+		</div>
+	</body>
+</html>

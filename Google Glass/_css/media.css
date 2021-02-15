@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*Formatações da div que engloba uma imagem de um rádio e uma TV como fundo para o áudio e o vídeo*/
+div#radioTv {
+	background: url("../_imagens/radio-tv.png") no-repeat;
+	width: 900px;
+	height: 573px;
+	margin: auto;
+}
+
+audio#loversCarvings {
+	display: block;
+	position: relative;
+	top: 488px;
+	left: 568px;
+	width: 311px;
+}
+
+video#gettingStarted {
+	display: block;
+	position: relative;
+	top: 68px;
+	left: 88px;
+	width: 440px;
+}

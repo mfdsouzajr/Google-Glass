@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*Formatações do formulário*/
+form {
+    width: 550px;
+    margin: auto;
+}
+
+/*Formatações das caixas de texto*/
+input, textarea {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+/*Formatações da legenda*/
+legend {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 13pt;
+    color: #888888;
+}
+
+/*Formatações dos conjuntos de campos*/
+fieldset {
+    margin: 20px;
+    border-color: #cecece;
+}
+
+fieldset#idUsuario {
+    background: url("../_imagens/icone-contato.png") no-repeat;
+    background-position: right;
+}
+
+fieldset#sexoUsuario {
+    width: 100px;
+}
+
+fieldset#enderecoUsuario {
+    background: url("../_imagens/icone-endereco.png") no-repeat;
+    background-position: right;
+    background-size: 130px 130px;
+}
+
+fieldset#msgUsuario {
+    background: url("../_imagens/icone-mensagem.png") no-repeat;
+    background-position: right;
+    background-size: 130px 130px;
+}
+
+fieldset#pedidoUsuario {
+    background: url("../_imagens/icone-pagamento.png") no-repeat;
+    background-position: right;
+    background-size: 105px 105px;
+}
